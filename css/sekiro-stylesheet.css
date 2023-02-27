@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+/* font-family: 'Fjalla One', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#bg-gif{
+    background-image: url("https://media3.giphy.com/media/1UUZxXPoguNdaD6P8B/giphy.gif");
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    padding-bottom:20vh;
+
+}
+
+.conteiner {
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: star;
+    flex-direction: column;
+}
+
+.about {
+    background-color: rgba(0, 0, 0, 0.615);
+    /* margin-top: 20vh; */
+    padding: 20px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+.about-game {
+    font-size: 20pt;
+    text-align: justify;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+
+h1 {
+    color: aliceblue;
+
+}
+
+h2 {
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    font-size: 45pt;
+}
+
+h3 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 30pt;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+    color: aliceblue;
+    width: 100%;
+}
+
+/* .header{
+    background-color: black;
+    width:100%;
+    padding:20px;
+}*/
+.logo {
+    margin-left: 5%;
+    background-color: black;
+    padding-top: 10px;
+}
+
+#logo-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    align-items: center;
+    position: relative;
+    top:38px;
+}
+
+.logo-center {
+    width: 400px;
+}
+
+.gameplay {
+    background-image:linear-gradient( to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+     url("https://im.tiscali.cz/games/2018/06/12/945140-sekiro-shadows-die-twice-base_16x9.jpg.1152?1588264894.0");
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    padding: 100px;
+    display: block;   
+
+}
+#gameplay{
+    display: flex;
+    align-items: center;
+}
+.gameplay-about{
+    font-size: 20pt;
+    text-align: justify;
+    margin-left: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.img-1 {
+    width: 650px;
+    border-radius:20px;
+    box-shadow: 5px 6px rgb(153 94 53 / 35%);
+}
+
+.history {
+    background-image:linear-gradient( to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url("https://www.arkade.com.br/wp-content/uploads/2019/03/Sekiro%E2%84%A2_-Shadows-Die-Twice_20190323013742-1050x591.jpg");
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    padding: 100px;
+    display: block;
+}
+#history{
+    display: flex;
+    align-items: center;
+}
+.history-about{
+    font-size: 20pt;
+    text-align:justify;
+    margin-left: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.img-2 {
+    width: 650px;
+    border-radius:20px;
+    box-shadow: 5px 6px rgb(17 42 46 / 75%);
+}
+
+.history {
+    background-image:linear-gradient( to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url("https://www.arkade.com.br/wp-content/uploads/2019/03/Sekiro%E2%84%A2_-Shadows-Die-Twice_20190323013742-1050x591.jpg");
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    padding: 100px;
+    display: block;
+}
+
+.history {
+    background-image:linear-gradient( to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url("https://www.arkade.com.br/wp-content/uploads/2019/03/Sekiro%E2%84%A2_-Shadows-Die-Twice_20190323013742-1050x591.jpg");
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    padding: 100px;
+    display: block;
+}
+#about{
+    display: flex;
+    align-items: center;
+}
+.about-game{
+    font-size: 20pt;
+    text-align: justify;
+    font-family: 'Fjalla One', sans-serif;
+    margin-left: 20px;
+}
+
+.img-3 {
+    width: 650px;
+    border-radius:20px;
+    box-shadow: 5px 6px rgb(112 85 57 / 65%);
+}
+
+.about {
+    background-image:linear-gradient( to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url("https://sm.ign.com/t/ign_in/review/s/sekiro-sha/sekiro-shadows-die-twice-review_jbms.1200.jpg");
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    padding: 100px;
+    display: block;
+}
+
+img {
+    width: 200px;
+}
+
+.header {
+    background-color: black;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    outline: revert;
+    display: flex;
+}
+
+.btn {
+    /* width: 100%; */
+    justify-content: center;
+    position: relative;
+
+}
+#btn-buy{
+    display: flex;
+    justify-content: center;
+}
+
+.capa-butao {
+    width: 364px;
+}
+
+.texto {
+    position: absolute;
+    top: 38%;
+    left: 38%;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:25pt;
+}
+.texto:hover{
+    color: rgb(255, 51, 51);
+}
+#disponivel{
+    display: block;
+    justify-content: center;
+    padding:50px;
+    
+}
+.play{
+    width: 243px;
+    height: 229px;
+    margin: auto;
+}
+.xbox{
+    width: 229px;
+    height: 229px;
+    margin: auto;
+}
+.steam{
+    width: 229px;
+    height: 229px;
+    margin: auto;
+}
+.plataforms{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30pt;
+    font-family: 'Fjalla One', sans-serif;
+}
+#plataforms{
+    display: flex;
+    margin-top: 10px;
+}
+
+.play:hover{
+    cursor: pointer;
+}
+.xbox:hover{
+    cursor: pointer;
+}
+.steam:hover{
+    cursor: pointer;
+}
